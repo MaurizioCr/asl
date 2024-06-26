@@ -48,16 +48,16 @@ const MyNavbar = () => {
         
       </Navbar>
 
-      <Container>
+      <Container className="rounded bg-primary mt-3 py-3">
             <Row>
-                <Col className="bg-primary mt-5">
+                <Col>
                     Asl a casa tua
                 </Col>
-                <Col className="bg-primary mt-5">
-                    Asl a casa tua
+                <Col>
+                   Vaccinazioni
                 </Col>
-                <Col className="bg-primary mt-5">
-                    Asl a casa tua
+                <Col>
+                    Informazioni
                 </Col>
             </Row>
       </Container>
