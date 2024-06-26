@@ -48,7 +48,7 @@ const MyNavbar = () => {
         
       </Navbar>
 
-      <Container className="rounded bg-primary mt-3 py-3">
+      <Container className="rounded text-center bg-primary mt-3 py-3 w-75">
             <Row>
                 <Col>
                     Asl a casa tua
