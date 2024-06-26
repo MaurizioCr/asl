@@ -1,4 +1,4 @@
-import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import { Button, Col, Container, Form, Nav, Navbar, Row } from "react-bootstrap";
 
 const MyNavbar = () => {
 
@@ -16,6 +16,15 @@ const MyNavbar = () => {
           <Nav className="text-right me-3">
             <Nav.Link href="#"><img  width={30 + "em"} src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"/>Area Dipendenti</Nav.Link> 
           </Nav>
+          <Form className="d-flex">
+                  <Form.Control
+                    type="search"
+                    placeholder="Cerca"
+                    className="me-2"
+                    aria-label="Search"
+                  />
+                  <Button className="text-white" variant="outline-success">Cerca</Button>
+                </Form>
         
       </Navbar>
         </>
