@@ -47,6 +47,20 @@ const MyNavbar = () => {
       </Offcanvas>
         
       </Navbar>
+
+      <Container>
+            <Row>
+                <Col className="bg-primary mt-5">
+                    Asl a casa tua
+                </Col>
+                <Col className="bg-primary mt-5">
+                    Asl a casa tua
+                </Col>
+                <Col className="bg-primary mt-5">
+                    Asl a casa tua
+                </Col>
+            </Row>
+      </Container>
         </>
     );
 };
