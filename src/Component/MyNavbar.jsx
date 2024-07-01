@@ -51,13 +51,13 @@ const MyNavbar = () => {
       <Container className="rounded text-center bg-primary mt-3 py-3 w-75">
             <Row>
                 <Col>
-                    Asl a casa tua
+                    <Nav.Link>Asl a casa tua</Nav.Link>
                 </Col>
                 <Col>
-                   Vaccinazioni
+                    <Nav.Link>Vaccinazioni</Nav.Link>
                 </Col>
                 <Col>
-                    Informazioni
+                    <Nav.Link>Informazioni</Nav.Link>
                 </Col>
             </Row>
       </Container>
