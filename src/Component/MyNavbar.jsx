@@ -1,12 +1,14 @@
 import { Button, Col, Container, Form, Nav, Navbar, Row } from "react-bootstrap";
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import Hamburger from 'hamburger-react'
 
 const MyNavbar = () => {
 
     const [show, setShow] = useState(false);
+    const [isOpen, setOpen] = useState(false)
 
-    const handleClose = () => setShow(false);
+    const handleClose = () => setOpen(false);
     const handleShow = () => setShow(true);
 
     return (
@@ -32,11 +34,9 @@ const MyNavbar = () => {
                   />
                   <Button className="text-white" variant="outline-success">Cerca</Button>
             </Form>
-            <Button variant="primary" onClick={handleShow}>
-        Launch
-      </Button>
+            <Hamburger toggled={isOpen} toggle={setOpen} />
 
-      <Offcanvas placement="end" show={show} onHide={handleClose}>
+      <Offcanvas placement="end" show={isOpen} onClick={handleClose}>
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Offcanvas</Offcanvas.Title>
         </Offcanvas.Header>
