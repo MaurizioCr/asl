@@ -29,7 +29,7 @@ const MyNavbar = () => {
                   <Form.Control
                     type="search"
                     placeholder="Cerca"
-                    className="me-2"
+                    className="me-2 bg-light text-black"
                     aria-label="Search"
                   />
                   <Button className="text-white" variant="outline-success">Cerca</Button>
