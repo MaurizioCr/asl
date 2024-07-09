@@ -2,7 +2,7 @@ import { Button, Col, Container, Form, Nav, Navbar, Row } from "react-bootstrap"
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Hamburger from 'hamburger-react'
-import { HouseDoorFill, PersonCheck } from "react-bootstrap-icons";
+import { HouseDoorFill, InfoCircleFill, PersonCheck } from "react-bootstrap-icons";
 
 const MyNavbar = () => {
 
@@ -58,7 +58,7 @@ const MyNavbar = () => {
                     <Nav.Link><span><PersonCheck/></span>Vaccinazioni</Nav.Link>
                 </Col>
                 <Col>
-                    <Nav.Link>Informazioni</Nav.Link>
+                    <Nav.Link><span><InfoCircleFill/></span>Informazioni</Nav.Link>
                 </Col>
             </Row>
       </Container>
