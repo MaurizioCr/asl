@@ -20,13 +20,13 @@ const MyNavbar = () => {
                 return <p>Home content goes here.</p>;
             case 'strutture':
                 return <p>Home content goes here.</p>;
-            case 'strutture':
+            case 'per il cittadino':
                 return <p>Home content goes here.</p>;
-            case 'strutture':
+            case 'informati':
                 return <p>Home content goes here.</p>;
-            case 'strutture':
+            case 'contatti':
                 return <p>Home content goes here.</p>;
-            case 'strutture':
+            case 'privacy':
                 return <p>Home content goes here.</p>;
         }
     };
