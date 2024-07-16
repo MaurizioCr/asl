@@ -14,7 +14,8 @@ const MyNavbar = () => {
 
     const renderSectionContent = () => {
         switch (activeSection) { 
-            
+            case 'home':
+                return <p>Home content goes here.</p>;  
         }
     };
 
