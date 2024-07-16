@@ -16,6 +16,8 @@ const MyNavbar = () => {
         switch (activeSection) { 
             case 'home':
                 return <p>Home content goes here.</p>;  
+            case 'azienda':
+                return <p>Vaccination information goes here.</p>;
         }
     };
 
