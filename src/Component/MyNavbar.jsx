@@ -20,6 +20,14 @@ const MyNavbar = () => {
                 return <p>Home content goes here.</p>;
             case 'strutture':
                 return <p>Home content goes here.</p>;
+            case 'strutture':
+                return <p>Home content goes here.</p>;
+            case 'strutture':
+                return <p>Home content goes here.</p>;
+            case 'strutture':
+                return <p>Home content goes here.</p>;
+            case 'strutture':
+                return <p>Home content goes here.</p>;
         }
     };
 
