@@ -7,7 +7,8 @@ import { HouseDoorFill, InfoCircleFill, PersonCheck, PersonFillCheck } from "rea
 const MyNavbar = () => {
 
     const [show, setShow] = useState(false);
-    const [isOpen, setOpen] = useState(false)
+    const [isOpen, setOpen] = useState(false);
+    const [activeSection, setActiveSection] = useState('home');
 
     const handleClose = () => setOpen(false);
     const handleShow = () => setShow(true);
@@ -58,15 +59,20 @@ const MyNavbar = () => {
             </Form>
             <Hamburger toggled={isOpen} toggle={setOpen} />
 
-      <Offcanvas placement="end" show={isOpen} onClick={handleClose}>
-        <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-        </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
-        </Offcanvas.Body>
-      </Offcanvas>
+            <Offcanvas placement="end" show={isOpen} onHide={handleClose}>
+                    <Offcanvas.Header closeButton>
+                        <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                    </Offcanvas.Header>
+                    <Offcanvas.Body>
+                        <Row>
+                            <Col>
+                                <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('home')}>Home</Button>
+                            </Col>
+                        </Row>
+                        <hr />
+                        {renderSectionContent()}
+                    </Offcanvas.Body>
+                </Offcanvas>
         
       </Navbar>
 
