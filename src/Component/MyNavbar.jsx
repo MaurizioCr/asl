@@ -17,7 +17,9 @@ const MyNavbar = () => {
             case 'home':
                 return <p>Home content goes here.</p>;  
             case 'azienda':
-                return <p>Vaccination information goes here.</p>;
+                return <p>Home content goes here.</p>;
+            case 'strutture':
+                return <p>Home content goes here.</p>;
         }
     };
 
