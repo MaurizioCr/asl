@@ -28,6 +28,8 @@ const MyNavbar = () => {
                 return <p>Home content goes here.</p>;
             case 'privacy':
                 return <p>Home content goes here.</p>;
+            default:
+                return <p>Select a section.</p>;
         }
     };
 
