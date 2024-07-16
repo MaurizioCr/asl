@@ -12,6 +12,12 @@ const MyNavbar = () => {
     const handleClose = () => setOpen(false);
     const handleShow = () => setShow(true);
 
+    const renderSectionContent = () => {
+        switch (activeSection) { 
+            
+        }
+    };
+
     return (
         <>
             <Navbar bg="primary" data-bs-theme="dark" className="fs-5 text-white">
