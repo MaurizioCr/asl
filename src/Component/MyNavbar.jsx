@@ -26,7 +26,7 @@ const MyNavbar = () => {
             case 'informati':
                 return <p>Informazioni content goes here.</p>;
             case 'contatti':
-                return <p>Home content goes here.</p>;
+                return <p>Contatti content goes here.</p>;
             case 'privacy':
                 return <p>Home content goes here.</p>;
             default:
@@ -88,6 +88,11 @@ const MyNavbar = () => {
                         <Row>
                             <Col>
                                 <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('informati')}>Informati</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('contatti')}>Contatti</Button>
                             </Col>
                         </Row>
 
