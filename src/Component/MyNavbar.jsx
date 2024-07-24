@@ -71,9 +71,13 @@ const MyNavbar = () => {
                         </Row>
 
                         <Row>
-
                             <Col>
                                 <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('azienda')}>Azienda</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('strutture')}>Strutture</Button>
                             </Col>
                         </Row>
 
