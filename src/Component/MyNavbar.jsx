@@ -24,7 +24,7 @@ const MyNavbar = () => {
             case 'cittadino':
                 return <p>Cittadino content goes here.</p>;
             case 'informati':
-                return <p>Home content goes here.</p>;
+                return <p>Informazioni content goes here.</p>;
             case 'contatti':
                 return <p>Home content goes here.</p>;
             case 'privacy':
@@ -83,6 +83,11 @@ const MyNavbar = () => {
                         <Row>
                             <Col>
                                 <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('cittadino')}>Cittadino</Button>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('informati')}>Informati</Button>
                             </Col>
                         </Row>
 
