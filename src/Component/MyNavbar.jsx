@@ -20,7 +20,7 @@ const MyNavbar = () => {
             case 'azienda':
                 return <p>Azienda content goes here.</p>;
             case 'strutture':
-                return <p>Home content goes here.</p>;
+                return <p>Strutture content goes here.</p>;
             case 'per il cittadino':
                 return <p>Home content goes here.</p>;
             case 'informati':
