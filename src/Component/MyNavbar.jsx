@@ -18,16 +18,16 @@ const MyNavbar = () => {
             case 'home':
                 return <p>Home content goes here.</p>;  
             case 'azienda':
-                return <Row>
+                return <Row className="justify-content-center">
                             <p className="text-center">Sezione Azienda </p>
-                            <Button>Direzione strategica</Button>
-                            <Button className="mt-1">Area direzione generale</Button>
-                            <Button className="mt-1">Area sanitaria</Button>
-                            <Button className="mt-1">Area amministrativa</Button>
-                            <Button className="mt-1">Attività Istituzionali</Button>
-                            <Button className="mt-1">Dipartimenti</Button>
-                            <Button className="mt-1">Curricula Dirigenti</Button>
-                            <Button className="mt-1">Carta Nazionale Dei Servizi</Button>
+                            <Button variant="info" className="w-75">Direzione strategica</Button>
+                            <Button variant="info" className="mt-1 w-75">Area direzione generale</Button>
+                            <Button variant="info" className="mt-1 w-75">Area sanitaria</Button>
+                            <Button variant="info" className="mt-1 w-75">Area amministrativa</Button>
+                            <Button variant="info" className="mt-1 w-75">Attività Istituzionali</Button>
+                            <Button variant="info" className="mt-1 w-75">Dipartimenti</Button>
+                            <Button variant="info" className="mt-1 w-75">Curricula Dirigenti</Button>
+                            <Button variant="info" className="mt-1 w-75">Carta Nazionale Dei Servizi</Button>
                         </Row>;
             case 'strutture':
                 return <p>Strutture content goes here.</p>;
