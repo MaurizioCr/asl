@@ -24,6 +24,10 @@ const MyNavbar = () => {
                             <Button className="mt-1">Area direzione generale</Button>
                             <Button className="mt-1">Area sanitaria</Button>
                             <Button className="mt-1">Area amministrativa</Button>
+                            <Button className="mt-1">Attività Istituzionali</Button>
+                            <Button className="mt-1">Dipartimenti</Button>
+                            <Button className="mt-1">Curricula Dirigenti</Button>
+                            <Button className="mt-1">Carta Nazionale Dei Servizi</Button>
                         </Row>;
             case 'strutture':
                 return <p>Strutture content goes here.</p>;
