@@ -19,9 +19,12 @@ const MyNavbar = () => {
                 return <p>Home content goes here.</p>;  
             case 'azienda':
                 return <Row>
+                            <p className="text-center">Sezione Azienda </p>
                             <Button>Direzione strategica</Button>
-                            <Button className="mt-2">Direzione strategica.</Button>;
-                        </Row>
+                            <Button className="mt-1">Area direzione generale</Button>
+                            <Button className="mt-1">Area sanitaria</Button>
+                            <Button className="mt-1">Area amministrativa</Button>
+                        </Row>;
             case 'strutture':
                 return <p>Strutture content goes here.</p>;
             case 'cittadino':
