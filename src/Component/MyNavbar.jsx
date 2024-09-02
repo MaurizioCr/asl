@@ -32,6 +32,8 @@ const MyNavbar = () => {
             case 'strutture':
                 return  <Row className="justify-content-center">
                             <p className="text-center">Sezione Strutture</p>
+                            <Button variant="info" className="w-75">Presidi ospedalieri</Button>
+                            
                         </Row>;
 
             case 'cittadino':
