@@ -30,7 +30,10 @@ const MyNavbar = () => {
                             <Button variant="info" className="mt-1 w-75">Carta Nazionale Dei Servizi</Button>
                         </Row>;
             case 'strutture':
-                return <p>Strutture content goes here.</p>;
+                return  <Row className="justify-content-center">
+                            <p className="text-center">Sezione Strutture</p>
+                        </Row>;
+
             case 'cittadino':
                 return <p>Cittadino content goes here.</p>;
             case 'informati':
