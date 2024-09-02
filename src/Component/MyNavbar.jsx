@@ -36,9 +36,7 @@ const MyNavbar = () => {
                             <Button variant="info" className="w-75">Distretti Sanitari</Button>
                             <Button variant="info" className="w-75">Strutture accreditate</Button>
                             <Button variant="info" className="w-75">AID, RSA, e Hospice </Button>
-
-
-                            
+                            <Button variant="info" className="w-75">AFT</Button>
                         </Row>;
 
             case 'cittadino':
