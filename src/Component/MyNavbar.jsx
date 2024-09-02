@@ -34,6 +34,7 @@ const MyNavbar = () => {
                             <p className="text-center">Sezione Strutture</p>
                             <Button variant="info" className="w-75">Presidi Ospedalieri</Button>
                             <Button variant="info" className="w-75">Distretti Sanitari</Button>
+                            <Button variant="info" className="w-75">Strutture accreditate</Button>
 
                             
                         </Row>;
