@@ -40,7 +40,10 @@ const MyNavbar = () => {
                         </Row>;
 
             case 'cittadino':
-                return <p>Cittadino content goes here.</p>;
+                return <Row className="justify-content-center">
+                            <p className="text-center">Sezione Cittadino</p>
+
+                        </Row>;;
             case 'informati':
                 return <p>Informazioni content goes here.</p>;
             case 'contatti':
