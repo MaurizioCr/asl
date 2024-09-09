@@ -46,6 +46,7 @@ const MyNavbar = () => {
                             <Button variant="info" className="mt-1 w-75">Tutela</Button>
                             <Button variant="info" className="mt-1 w-75">Cura e assistenza</Button>
                             <Button variant="info" className="mt-1 w-75">Guida ai servizi</Button>
+                            <Button variant="info" className="mt-1 w-75">PNES, contrastare la povertà sanitaria</Button>
                         </Row>;;
             case 'informati':
                 return <p>Informazioni content goes here.</p>;
