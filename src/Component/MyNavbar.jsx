@@ -49,7 +49,9 @@ const MyNavbar = () => {
                             <Button variant="info" className="mt-1 w-75">PNES, contrastare la povertà sanitaria</Button>
                         </Row>;;
             case 'informati':
-                return <p>Informazioni content goes here.</p>;
+                return <Row className="justify-content-center">
+                            <p className="text-center">Sezione Informati</p>
+                        </Row>
             case 'contatti':
                 return <p>Contatti content goes here.</p>;
             case 'privacy':
