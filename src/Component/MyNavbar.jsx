@@ -52,6 +52,7 @@ const MyNavbar = () => {
                 return <Row className="justify-content-center">
                             <p className="text-center">Sezione Informati</p>
                             <Button variant="info" className="mt-1 w-75">Come fare</Button>
+                            <Button variant="info" className="mt-1 w-75">News</Button>
                         </Row>
             case 'contatti':
                 return <p>Contatti content goes here.</p>;
