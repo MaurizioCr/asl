@@ -54,7 +54,8 @@ const MyNavbar = () => {
                             <Button variant="info" className="mt-1 w-75">Come fare</Button>
                             <Button variant="info" className="mt-1 w-75">News</Button>
                             <Button variant="info" className="mt-1 w-75">Eventi</Button>
-                            <Button variant="info" className="mt-1 w-75">Ufficio in stampa</Button>
+                            <Button variant="info" className="mt-1 w-75">Ufficio stampa</Button>
+                            <Button variant="info" className="mt-1 w-75">Avvisi</Button>
                         </Row>
             case 'contatti':
                 return <p>Contatti content goes here.</p>;
