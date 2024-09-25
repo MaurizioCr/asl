@@ -61,6 +61,7 @@ const MyNavbar = () => {
             case 'contatti':
                 return <Row className="justify-content-center">
                             <p className="text-center">Sezione Contatti</p>
+                            <Button variant="info" className="mt-1 w-75">URP</Button>
                         </Row>
             case 'privacy':
                 return <p>Home content goes here.</p>;
