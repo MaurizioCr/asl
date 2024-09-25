@@ -59,7 +59,9 @@ const MyNavbar = () => {
                             <Button variant="info" className="mt-1 w-75">Amministrazione trasparente</Button>
                         </Row>
             case 'contatti':
-                return <p>Contatti content goes here.</p>;
+                return <Row className="justify-content-center">
+                            <p className="text-center">Sezione Contatti</p>
+                        </Row>
             case 'privacy':
                 return <p>Home content goes here.</p>;
             default:
