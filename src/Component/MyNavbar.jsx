@@ -63,6 +63,7 @@ const MyNavbar = () => {
                             <p className="text-center">Sezione Contatti</p>
                             <Button variant="info" className="mt-1 w-75">URP</Button>
                             <Button variant="info" className="mt-1 w-75">CUP</Button>
+                            <Button variant="info" className="mt-1 w-75">Segnala</Button>
                         </Row>
             case 'privacy':
                 return <p>Home content goes here.</p>;
