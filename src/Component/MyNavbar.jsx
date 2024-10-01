@@ -139,6 +139,11 @@ const MyNavbar = () => {
                                 <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('contatti')}>Contatti</Button>
                             </Col>
                         </Row>
+                        <Row>
+                            <Col>
+                                <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('contatti')}>Privacy</Button>
+                            </Col>
+                        </Row>
 
                         <hr />
                         {renderSectionContent()}
