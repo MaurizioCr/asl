@@ -139,11 +139,13 @@ const MyNavbar = () => {
                                 <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('contatti')}>Contatti</Button>
                             </Col>
                         </Row>
+                        <a href="https://www.aslnapoli2nord.it/index.php/it/contatti">
                         <Row>
                             <Col>
-                                <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('contatti')}>Privacy</Button>
+                                <Button variant="primary" className="w-100 mb-2" onClick={() => setActiveSection('privacy')}>Privacy</Button>
                             </Col>
-                        </Row>
+                        </Row> 
+                        </a>
 
                         <hr />
                         {renderSectionContent()}
