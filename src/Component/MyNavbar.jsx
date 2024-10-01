@@ -69,7 +69,10 @@ const MyNavbar = () => {
                             <Button variant="info" className="mt-1 w-75">Partecipazione democratica elettronica</Button>
                         </Row>
             case 'privacy':
-                return <p>Home content goes here.</p>;
+                return <Row className="justify-content-center">
+                            <p className="text-center">Sezione Privacy</p>
+                        </Row>
+
             default:
                 return <p>Select a section.</p>;
         }
