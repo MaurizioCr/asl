@@ -1,6 +1,6 @@
 import { Col, Container, Row, Nav } from "react-bootstrap";
 import { HouseDoorFill, InfoCircleFill, PersonFillCheck } from "react-bootstrap-icons";
-import prevenzione from "../Assets/download.jpeg";
+import numeroverde from "../Assets/numero.png";
 
 const Home = () => {
     return (
@@ -19,11 +19,15 @@ const Home = () => {
                 </Row>
         </Container>
 
-        <Row className="w-100 mx-0"> 
+        <Row className="text-center mt-3"> 
             <Col className="px-0"> 
-                <img src={prevenzione} className="img-fluid w-100" style={{ height: '400px', objectFit: 'cover' }} alt="Prevenzione" />
+                <img src={numeroverde} className=""  alt="Prevenzione" />
             </Col>
         </Row>
+        <Container className="text-center my-3">
+            <h2>Prenota da casa</h2>
+            <p>Grazie al nuovo numero verde potrai prenotare da casa le visite mediche che necessiti.</p>
+        </Container>
 
     </>
     )
