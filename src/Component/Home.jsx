@@ -1,5 +1,6 @@
 import { Col, Container, Row, Nav } from "react-bootstrap";
 import { HouseDoorFill, InfoCircleFill, PersonFillCheck } from "react-bootstrap-icons";
+import prevenzione from "../Assets/download.jpeg";
 
 const Home = () => {
     return (
@@ -17,9 +18,16 @@ const Home = () => {
                     </Col>
                 </Row>
         </Container>
+
+        <Row className="w-100 mx-0"> 
+            <Col className="px-0"> 
+                <img src={prevenzione} className="img-fluid w-100" style={{ height: '400px', objectFit: 'cover' }} alt="Prevenzione" />
+            </Col>
+        </Row>
+
     </>
     )
-
 };
 
 export default Home;
+
