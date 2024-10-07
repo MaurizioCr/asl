@@ -24,9 +24,13 @@ const Home = () => {
                 <img src={numeroverde} className=""  alt="Prevenzione" />
             </Col>
         </Row>
-        <Container className="text-center my-3">
+        <Container className="text-center mt-3 mb-5">
             <h2>Prenota da casa</h2>
             <p>Grazie al nuovo numero verde potrai prenotare da casa le visite mediche che necessiti.</p>
+        </Container>
+
+        <Container className="text-start mt-5">
+            <h2>In evidenza</h2>
         </Container>
 
     </>
