@@ -20,27 +20,29 @@ const Home = () => {
             </Row>
         </Container>
 
-        <Carousel className="mt-3" interval={3000} controls={true} indicators={true}>
-            <Carousel.Item>
-                <Row className="text-center mt-3"> 
-                       <Col className="px-0"> 
-                            <img src={numeroverde} className=""  alt="Numero Verde" />
-                        </Col>
-                </Row>
-                <Row className="text-center mt-3 mb-5">
-                    <h2>Prenota da casa</h2>
-                    <p>Grazie al nuovo numero verde potrai prenotare da casa le visite mediche che necessiti.</p>
-                </Row>
-            </Carousel.Item>
-
-            <Carousel.Item>
-                <Row className="text-center mt-3"> 
+        <Container>
+            <Carousel className="mt-3 bg-primary rounded" interval={3000} controls={true} indicators={true}>
+                <Carousel.Item>
+                    <Row className="text-center mt-3"> 
                            <Col className="px-0"> 
-                                <img src={Prevenzione} className=""  alt="Prevenzione" height={300 + "px"}/>
+                                <img src={numeroverde} className=""  alt="Numero Verde" />
                             </Col>
                     </Row>
+                    <Row className="text-center mt-3 mb-2">
+                        <h2>Prenota da casa</h2>
+                        <p>Grazie al nuovo numero verde potrai prenotare da casa le visite mediche che necessiti.</p>
+                    </Row>
                 </Carousel.Item>
-            </Carousel>
+
+                <Carousel.Item>
+                    <Row className="text-center mt-3 mb-2"> 
+                               <Col className="px-0"> 
+                                    <img src={Prevenzione} className=""  alt="Prevenzione" height={300 + "px"}/>
+                                </Col>
+                        </Row>
+                    </Carousel.Item>
+                </Carousel>
+            </Container>
 
         <Container className="text-start mt-5">
             <h2>In evidenza</h2>
