@@ -51,6 +51,9 @@ const Home = () => {
         <Container className="text-start mt-5">
             <h2>In evidenza</h2>
         </Container>
+        <Container className="text-start mt-5">
+            <h2>Ultime News</h2>
+        </Container>
     </>
     );
 };
