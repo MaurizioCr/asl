@@ -35,10 +35,14 @@ const Home = () => {
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <Row className="text-center mt-3 mb-2"> 
+                    <Row className="text-center mt-3"> 
                                <Col className="px-0"> 
-                                    <img src={Prevenzione} className=""  alt="Prevenzione" height={300 + "px"}/>
+                                    <img src={Prevenzione} className=""  alt="Prevenzione" height={200 + "px"}/>
                                 </Col>
+                                <Row className="text-center mt-3 mb-2">
+                                    <h2>Previeni</h2>
+                                    <p>Previeni gratuitamente alle problematiche più comuni</p>
+                                </Row>
                         </Row>
                     </Carousel.Item>
                 </Carousel>
