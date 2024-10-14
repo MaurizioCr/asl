@@ -1,6 +1,7 @@
 import { Col, Container, Row, Nav, Carousel } from "react-bootstrap"; // Importa Carousel
 import { HouseDoorFill, InfoCircleFill, PersonFillCheck } from "react-bootstrap-icons";
 import numeroverde from "../Assets/numero.png";
+import Prevenzione from "../Assets/download.jpeg";
 
 const Home = () => {
     return (
@@ -31,16 +32,21 @@ const Home = () => {
                     <p>Grazie al nuovo numero verde potrai prenotare da casa le visite mediche che necessiti.</p>
                 </Row>
             </Carousel.Item>
-        </Carousel>
 
-        
+            <Carousel.Item>
+                <Row className="text-center mt-3"> 
+                           <Col className="px-0"> 
+                                <img src={Prevenzione} className=""  alt="Prevenzione" height={300 + "px"}/>
+                            </Col>
+                    </Row>
+                </Carousel.Item>
+            </Carousel>
 
         <Container className="text-start mt-5">
             <h2>In evidenza</h2>
         </Container>
     </>
-    )
+    );
 };
 
 export default Home;
-
