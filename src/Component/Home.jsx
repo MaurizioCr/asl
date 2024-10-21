@@ -50,10 +50,16 @@ const Home = () => {
 
         <Container className="text-start mt-5">
             <h2>In evidenza</h2>
-            <Col className="col-3 border border-black p-3">
-                <h2>Esenzioni ticket </h2>
-                <Button>Approfondisci</Button>
-            </Col>
+            <Row>
+                <Col className="col-3 border border-black p-3 m-3">
+                    <h2>Esenzioni Ticket </h2>
+                    <Button>Approfondisci</Button>
+                </Col>
+                <Col className="col-3 border border-black p-3 m-3">
+                    <h2>Fascicolo Elettronico </h2>
+                    <Button>Approfondisci</Button>
+                </Col>
+            </Row>
         </Container>
         <Container className="text-start mt-5">
             <h2>Ultime News</h2>
