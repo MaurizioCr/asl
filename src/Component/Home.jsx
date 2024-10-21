@@ -1,4 +1,4 @@
-import { Col, Container, Row, Nav, Carousel } from "react-bootstrap"; // Importa Carousel
+import { Col, Container, Row, Nav, Carousel, Button } from "react-bootstrap"; // Importa Carousel
 import { HouseDoorFill, InfoCircleFill, PersonFillCheck } from "react-bootstrap-icons";
 import numeroverde from "../Assets/numero.png";
 import Prevenzione from "../Assets/download.jpeg";
@@ -50,6 +50,10 @@ const Home = () => {
 
         <Container className="text-start mt-5">
             <h2>In evidenza</h2>
+            <Col className="col-3 border border-black p-3">
+                <h2>Esenzioni ticket </h2>
+                <Button>Approfondisci</Button>
+            </Col>
         </Container>
         <Container className="text-start mt-5">
             <h2>Ultime News</h2>
