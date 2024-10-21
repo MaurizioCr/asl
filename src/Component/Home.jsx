@@ -51,12 +51,16 @@ const Home = () => {
         <Container className="text-start mt-5">
             <h2>In evidenza</h2>
             <Row>
-                <Col className="col-3 border border-black p-3 m-3">
+                <Col className="col-3 border border-black ps-3 py-3 m-2">
                     <h2>Esenzioni Ticket </h2>
                     <Button>Approfondisci</Button>
                 </Col>
-                <Col className="col-3 border border-black p-3 m-3">
+                <Col className="col-3 border border-black ps-3 py-3 m-2 ">
                     <h2>Fascicolo Elettronico </h2>
+                    <Button>Approfondisci</Button>
+                </Col>
+                <Col className="col-4 border border-black ps-3 py-3 m-2">
+                    <h2>Scelta/revoca medico o pediatra </h2>
                     <Button>Approfondisci</Button>
                 </Col>
             </Row>
