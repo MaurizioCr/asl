@@ -63,6 +63,18 @@ const Home = () => {
                     <h2>Scelta/revoca medico o pediatra </h2>
                     <Button>Approfondisci</Button>
                 </Col>
+                <Col className="col-3 border border-black ps-3 py-3 m-2 d-flex flex-column justify-content-between">
+                    <h2>118 - Emergenza ed Urgenza Pre-Ospedaliera</h2>
+                    <Button>Approfondisci</Button>
+                </Col>
+                <Col className="col-3 border border-black ps-3 py-3 m-2 d-flex flex-column justify-content-between">
+                    <h2>Prenota le tue visite ed esami</h2>
+                    <Button>Approfondisci</Button>
+                </Col>
+                <Col className="col-3 border border-black ps-3 py-3 m-2 d-flex flex-column justify-content-between">
+                    <h2>Reteoncologica</h2>
+                    <Button>Approfondisci</Button>
+                </Col>
             </Row>
         </Container>
         <Container className="text-start mt-5">
