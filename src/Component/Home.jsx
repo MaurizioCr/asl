@@ -2,6 +2,7 @@ import { Col, Container, Row, Nav, Carousel, Button } from "react-bootstrap"; //
 import { HouseDoorFill, InfoCircleFill, PersonFillCheck } from "react-bootstrap-icons";
 import numeroverde from "../Assets/numero.png";
 import Prevenzione from "../Assets/download.jpeg";
+import InEvidenza from "./InEvidenza";
 
 const Home = () => {
     return (
@@ -48,35 +49,7 @@ const Home = () => {
                 </Carousel>
             </Container>
 
-            <Container className="text-start mt-5">
-                <h2>In evidenza</h2>
-                <Row>
-                    <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
-                        <h2>Esenzioni Ticket </h2>
-                        <Button>Approfondisci</Button>
-                    </Col>
-                    <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
-                        <h2>Fascicolo Elettronico </h2>
-                        <Button>Approfondisci</Button>
-                    </Col>
-                    <Col className="col-4 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
-                        <h2>Scelta/revoca medico o pediatra </h2>
-                        <Button>Approfondisci</Button>
-                    </Col>
-                    <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
-                        <h2>118 - Emergenza ed Urgenza Pre-Ospedaliera</h2>
-                        <Button>Approfondisci</Button>
-                    </Col>
-                    <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
-                        <h2>Prenota le tue visite ed esami</h2>
-                        <Button>Approfondisci</Button>
-                    </Col>
-                    <Col className="col-4 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
-                        <h2>Rete Oncologica</h2>
-                        <Button>Approfondisci</Button>
-                    </Col>
-                </Row>
-            </Container>
+            <InEvidenza/>
 
         <Container className="text-start mt-5">
             <h2>Ultime News</h2>
