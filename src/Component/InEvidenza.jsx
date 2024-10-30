@@ -30,6 +30,14 @@ const InEvidenza = () => {
                         <h2>Rete Oncologica</h2>
                         <Button>Approfondisci</Button>
                     </Col>
+                    <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
+                        <h2>Malattie rare</h2>
+                        <Button>Approfondisci</Button>
+                    </Col>
+                    <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
+                        <h2>Rilascio cartelle cliniche</h2>
+                        <Button>Approfondisci</Button>
+                    </Col>
                 </Row>
             </Container>
     </>
