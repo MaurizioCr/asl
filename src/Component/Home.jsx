@@ -3,6 +3,7 @@ import { HouseDoorFill, InfoCircleFill, PersonFillCheck } from "react-bootstrap-
 import numeroverde from "../Assets/numero.png";
 import Prevenzione from "../Assets/download.jpeg";
 import InEvidenza from "./InEvidenza";
+import News from "./News";
 
 const Home = () => {
     return (
@@ -63,11 +64,10 @@ const Home = () => {
             </Carousel>
         </Container>
 
-        <InEvidenza />
+        <InEvidenza/>
+        <News/>
 
-        <Container className="text-start mt-5">
-            <h2>Ultime News</h2>
-        </Container>
+        
     </>
     );
 };

@@ -3,7 +3,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 const InEvidenza = () => {
     return (
     <>
-            <Container className="text-start mt-5">
+            <Container className="text-start mt-5 mb-5">
                 <h2>In evidenza</h2>
                 <Row>
                     <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
