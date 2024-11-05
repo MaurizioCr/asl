@@ -16,7 +16,9 @@ const News = () => {
                 <Col className="col-3 ms-3 d-flex flex-column justify-content-between">
                     <h3>Nomenclatore Tariffario Regionale</h3>
                 </Col>
-                
+                <Col className="col-3 ms-3 d-flex flex-column justify-content-between">
+                    <h3>Scegli come prenotare</h3>
+                </Col>
             <Row>
             </Row>
                 
@@ -31,6 +33,10 @@ const News = () => {
                     </Col>
                     <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow bg-primary ">
                         <p>Contiene l'elenco delle prestazioni di assistenza specialistica ambulatoriale con le relative tariffe, erogabili dal SSR </p>
+                        <Button variant="secondary">Leggi</Button>
+                    </Col>
+                    <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow bg-primary ">
+                        <p>Per limitare il flusso di assistiti negli Ospedali e nei Distretti, viene garantita l’assistenza sanitaria in sicurezza presso tutte le strutture</p>
                         <Button variant="secondary">Leggi</Button>
                     </Col>
             </Row>
