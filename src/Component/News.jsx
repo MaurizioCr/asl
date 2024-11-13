@@ -40,7 +40,13 @@ const News = () => {
                     <p>Per limitare il flusso di assistiti negli Ospedali e nei Distretti, viene garantita l’assistenza sanitaria in sicurezza presso tutte le strutture</p>
                     <Button variant="secondary">Leggi</Button>
                 </Col>
-            
+                <Col className="col-3 ms-3 d-flex flex-column justify-content-between">
+                    <h3>Progetti Finanziati con fondi a specifica destinazione</h3>
+                </Col>
+                <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow bg-primary ">
+                    <p>L’Azienda è particolarmente interessata a sviluppare e implementare progetti di ricerca dal carattere fortemente innovativo.</p>
+                    <Button variant="secondary">Leggi</Button>
+                </Col>
             </Row>
         </Container>
     </>
