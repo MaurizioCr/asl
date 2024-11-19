@@ -1,11 +1,11 @@
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 
 const News = () => {
     return (
     <>
-        <Container className="border ">
+        <Container className="square border border-5">
             <h1 className="mb-5">Ultime notizie</h1>
-            <Row className="mb-5">
+            <Row className="mb-5 ">
                 <Col className="col-3 d-flex flex-column justify-content-between">
                     <h3>Atto aziendale</h3>
                 </Col>
@@ -33,28 +33,38 @@ const News = () => {
             </Row>
 
             <Row className="mt-5 pt-5">
-                <Col className="col-3 ms-3 d-flex flex-column justify-content-between">
+                <Col className="col-3 ms-3">
                     <h3>Scegli come prenotare</h3>
+                    <Card style={{  }}>     
+                        <Card.Body className="bg-primary">
+                            <Card.Text>
+                                Per limitare il flusso di assistiti negli Ospedali e nei Distretti, viene garantita l’assistenza sanitaria in sicurezza presso tutte le strutture
+                            </Card.Text>
+                            <Button variant="secondary">Leggi</Button>
+                        </Card.Body>
+                    </Card>
                 </Col>
-                <Col className="col-3 ms-3 d-flex flex-column justify-content-between">
+                <Col className="col-3 ms-3 ps-3 py-3">
                     <h3>Progetti Finanziati con fondi a specifica destinazione</h3>
+                    <Card style={{  }}>     
+                        <Card.Body className="bg-primary">
+                            <Card.Text>
+                            L’Azienda è particolarmente interessata a sviluppare e implementare progetti di ricerca dal carattere fortemente innovativo.
+                            </Card.Text>
+                            <Button variant="secondary">Leggi</Button>
+                        </Card.Body>
+                    </Card>
                 </Col>
-                <Col className="col-3 ms-3 d-flex flex-column justify-content-between">
+                <Col className="col-3 ms-3 ps-3 py-3">
                     <h3>Piano regionale prevenzione 2020-2025</h3>
-                </Col>
-                <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow bg-primary ">
-                    <p>Per limitare il flusso di assistiti negli Ospedali e nei Distretti, viene garantita l’assistenza sanitaria in sicurezza presso tutte le strutture</p>
-                    <Button variant="secondary">Leggi</Button>
-                </Col>
-                
-                <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow bg-primary ">
-                    <p>L’Azienda è particolarmente interessata a sviluppare e implementare progetti di ricerca dal carattere fortemente innovativo.</p>
-                    <Button variant="secondary">Leggi</Button>
-                </Col>
-                
-                <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow bg-primary ">
-                    <p>È lo strumento di pianificazione centrale degli interventi di prevenzione e promozione della salute, da realizzare sul territorio.</p>
-                    <Button variant="secondary">Leggi</Button>
+                    <Card style={{  }}>     
+                        <Card.Body className="bg-primary">
+                            <Card.Text>
+                            È lo strumento di pianificazione centrale degli interventi di prevenzione e promozione della salute, da realizzare sul territorio.
+                            </Card.Text>
+                            <Button variant="secondary">Leggi</Button>
+                        </Card.Body>
+                    </Card>
                 </Col>
             </Row>
         </Container>
