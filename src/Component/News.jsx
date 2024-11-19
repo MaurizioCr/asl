@@ -1,11 +1,10 @@
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
-
+import {Newspaper } from "react-bootstrap-icons";
 const News = () => {
     const titleStyle = {
         minHeight: "70px", // per non avere dislivelli
             display: "flex",
             alignItems: "flex-start",
-            justifyContent: "center",
         };
         
 
@@ -19,8 +18,8 @@ const News = () => {
     return (
         <>
             <Container className="square border border-5 px-3 py-3">
-                <h1 className="mb-5">Ultime notizie</h1>
-                <Row className="mb-5 ">
+                <h1 className="mb-5"><span><Newspaper/></span> Ultime notizie </h1>
+                <Row className="mb-5">
                     
                         <Col md={4} className="d-flex flex-column">
                             <h3 style={titleStyle}>Atto aziendale</h3>
@@ -62,7 +61,7 @@ const News = () => {
 
 
                 
-                <Row className="mt-5 g-3">
+                <Row className="mt-5">
                     <Col md={4} className="d-flex flex-column">
                         <h3 style={titleStyle}>Scegli come prenotare</h3>
                         <Card className="h-100">
