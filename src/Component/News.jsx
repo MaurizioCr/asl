@@ -3,9 +3,9 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 const News = () => {
     return (
     <>
-        <Container>
+        <Container className="border ">
             <h1 className="mb-5">Ultime notizie</h1>
-            <Row>
+            <Row className="mb-5">
                 <Col className="col-3 d-flex flex-column justify-content-between">
                     <h3>Atto aziendale</h3>
                 </Col>
@@ -32,7 +32,7 @@ const News = () => {
                     
             </Row>
 
-            <Row>
+            <Row className="mt-5 pt-5">
                 <Col className="col-3 ms-3 d-flex flex-column justify-content-between">
                     <h3>Scegli come prenotare</h3>
                 </Col>
