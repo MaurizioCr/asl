@@ -4,6 +4,7 @@ import numeroverde from "../Assets/numero.png";
 import Prevenzione from "../Assets/download.jpeg";
 import InEvidenza from "./InEvidenza";
 import News from "./News";
+import Avvisi from "./Avvisi";
 
 const Home = () => {
     return (
@@ -66,6 +67,7 @@ const Home = () => {
 
         <InEvidenza/>
         <News/>
+        <Avvisi/>
 
         
     </>
