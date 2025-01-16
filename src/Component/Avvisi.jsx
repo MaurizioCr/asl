@@ -1,4 +1,5 @@
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Newspaper } from "react-bootstrap-icons";
 
 const Avvisi = () => {
     const titleStyle = {
@@ -16,9 +17,10 @@ const Avvisi = () => {
     };
     return (
     <>
-    <Container className="text-start mt-5 mb-5">
-                <h2>Avvisi</h2>
-                <Row>
+    <Container className="square border border-5 px-3 py-3">
+                <h1 className="mb-5"><span><Newspaper/></span> Avvisi </h1>
+                <Row className="mb-5">
+                    
                     <Col md={4} className="d-flex flex-column">
                         <Card className="h-100">
                             <Card.Body style={cardBodyStyle} className="bg-primary">
