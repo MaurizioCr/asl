@@ -55,6 +55,18 @@ const Avvisi = () => {
                         </Card>
                     </Col>
 
+                    <Col md={4} className="d-flex flex-column">
+                        <Card className="h-100">
+                            <Card.Body style={cardBodyStyle} className="bg-primary">
+                               <Card.Text>
+                               Avviso di selezione per il conferimento dell'incarico triennale di Coordinatore delle attività formative professionalizzanti e di tirocinio nella sede della formazione universitaria ASL NA 2 Nord sede di Frattamaggiore
+                                </Card.Text>
+                                <Card.Footer>16 Ottobre 2024</Card.Footer>
+                                <Button variant="secondary">Leggi</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+
                 </Row>
             </Container>
     </>
