@@ -62,7 +62,7 @@ const Avvisi = () => {
                                Avviso di selezione per il conferimento dell'incarico triennale di Coordinatore delle attività formative professionalizzanti e di tirocinio nella sede della formazione universitaria ASL NA 2 Nord sede di Frattamaggiore
                                 </Card.Text>
                                 <Card.Footer>16 Ottobre 2024</Card.Footer>
-                                <Button variant="secondary">Leggi</Button>
+                                <a href="https://aslnapoli2nord.portaleamministrazionetrasparente.it/archivio22_bandi-di-concorso_0_23985_874_1.html"><Button variant="secondary">Leggi</Button></a>
                             </Card.Body>
                         </Card>
                     </Col>
