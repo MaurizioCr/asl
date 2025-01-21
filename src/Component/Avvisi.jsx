@@ -21,7 +21,7 @@ const Avvisi = () => {
                 <h1 className="mb-5"><span><Newspaper/></span> Avvisi </h1>
                 <Row className="mb-5">
                     
-                    <Col md={4} className="d-flex flex-column">
+                    <Col md={4} className=" border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                         <Card className="h-100">
                             <Card.Body style={cardBodyStyle} className="bg-primary">
                                <Card.Text>
@@ -33,7 +33,7 @@ const Avvisi = () => {
                         </Card>
                     </Col>
 
-                    <Col md={4} className="d-flex flex-column">
+                    <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                         <Card className="h-100">
                             <Card.Body style={cardBodyStyle} className="bg-primary">
                                <Card.Text>
@@ -45,7 +45,7 @@ const Avvisi = () => {
                         </Card>
                     </Col>
 
-                    <Col md={4} className="d-flex flex-column">
+                    <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                         <Card className="h-100">
                             <Card.Body style={cardBodyStyle} className="bg-primary">
                                <Card.Text>
@@ -57,7 +57,7 @@ const Avvisi = () => {
                         </Card>
                     </Col>
 
-                    <Col md={4} className="d-flex flex-column">
+                    <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                         <Card className="h-100">
                             <Card.Body style={cardBodyStyle} className="bg-primary">
                                <Card.Text>
