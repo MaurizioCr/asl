@@ -21,7 +21,7 @@ const News = () => {
                 <h1 className="mb-5"><span><Newspaper/></span> Ultime notizie </h1>
                 <Row className="mb-5">
                     
-                        <Col md={4} className="d-flex flex-column">
+                        <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                             <h3 style={titleStyle}>Atto aziendale</h3>
                                 <Card className="h-100">
                                     <Card.Body style={cardBodyStyle} className="bg-primary">
@@ -33,7 +33,7 @@ const News = () => {
                                 </Card>
                         </Col>
 
-                        <Col md={4} className="d-flex flex-column">
+                        <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                             <h3 style={titleStyle}>PNES - Contrastare la povertà</h3>
                                 <Card className="h-100">
                                     <Card.Body style={cardBodyStyle} className="bg-primary">
@@ -45,7 +45,7 @@ const News = () => {
                                 </Card>
                         </Col>
 
-                        <Col md={4} className="d-flex flex-column">
+                        <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                             <h3 style={titleStyle}>Nomenclatore Tariffario Regionale</h3>
                                 <Card className="h-100">
                                     <Card.Body style={cardBodyStyle} className="bg-primary">
@@ -62,7 +62,7 @@ const News = () => {
 
                 
                 <Row className="mt-5">
-                    <Col md={4} className="d-flex flex-column">
+                    <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                         <h3 style={titleStyle}>Scegli come prenotare</h3>
                         <Card className="h-100">
                             <Card.Body style={cardBodyStyle} className="bg-primary">
@@ -74,7 +74,7 @@ const News = () => {
                         </Card>
                     </Col>
 
-                    <Col md={4} className="d-flex flex-column">
+                    <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                         <h3 style={titleStyle}>Progetti Finanziati con fondi a specifica destinazione</h3>
                         <Card className="h-100 ">
                             <Card.Body style={cardBodyStyle} className="bg-primary">
@@ -86,7 +86,7 @@ const News = () => {
                         </Card>
                     </Col>
 
-                    <Col md={4} className="d-flex flex-column">
+                    <Col md={4} className="border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                         <h3 style={titleStyle}>Piano regionale prevenzione 2020-2025</h3>
                         <Card className="h-100">
                             <Card.Body style={cardBodyStyle} className="bg-primary">
