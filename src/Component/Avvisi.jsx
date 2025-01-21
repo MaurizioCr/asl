@@ -17,7 +17,7 @@ const Avvisi = () => {
     };
     return (
     <>
-    <Container className="square border border-5 px-3 py-3">
+    <Container className="square border border-0 px-3 py-3">
                 <h1 className="mb-5"><span><Newspaper/></span> Avvisi </h1>
                 <Row className="mb-5">
                     
