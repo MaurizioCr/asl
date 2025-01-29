@@ -19,7 +19,7 @@ const Avvisi = () => {
     <>
     <Container className="square border border-0 px-3 py-3">
                 <h1 className="mb-5"><span><Newspaper/></span> Avvisi </h1>
-                <Row className="mb-5">
+                <Row className="mb-5 bg-white px-2">
                     
                     <Col md={4} className=" border border-gray py-2 my-2 d-flex flex-column justify-content-between shadow">
                         <Card className="h-100">
