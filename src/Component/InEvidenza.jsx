@@ -5,7 +5,7 @@ const InEvidenza = () => {
     <>
             <Container className="text-start mt-5 mb-5">
                 <h2>In evidenza</h2>
-                <Row>
+                <Row className="bg-white">
                     <Col className="col-3 border border-gray ps-3 py-3 m-2 d-flex flex-column justify-content-between shadow">
                         <h2>Esenzioni Ticket </h2>
                         <Button>Approfondisci</Button>
