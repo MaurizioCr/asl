@@ -7,8 +7,12 @@ import News from "./News";
 import Avvisi from "./Avvisi";
 
 const Home = () => {
+    const bg = {
+        backgroundColor:"gray"
+    };
     return (
     <>
+    <div style={bg}>
         <Container className="rounded text-center text-white bg-primary mt-3 py-3 w-75">
             <Row>
                 <Col>
@@ -69,7 +73,7 @@ const Home = () => {
         <News/>
         <Avvisi/>
 
-        
+        </div>
     </>
     );
 };
