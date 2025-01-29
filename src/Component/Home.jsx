@@ -5,6 +5,7 @@ import Prevenzione from "../Assets/download.jpeg";
 import InEvidenza from "./InEvidenza";
 import News from "./News";
 import Avvisi from "./Avvisi";
+import MyFooter from "./MyFooter";
 
 const Home = () => {
     const bg = {
@@ -72,6 +73,7 @@ const Home = () => {
         <InEvidenza/>
         <News/>
         <Avvisi/>
+        <MyFooter/>
 
         </div>
     </>
